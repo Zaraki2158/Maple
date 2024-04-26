@@ -1,0 +1,57 @@
+Exam : 
+- petite fonction : ex 	:liste des multiples de 3
+			:factoriser un polynome
+			:afficher une famille de courbes sur le meme graphique
+			:résoudre un systeme
+			:surfaces
+			:calculer une somme
+			:calculer factorielle
+			:interpolation , procédure
+			
+			
+Formules pratiques : 
+
+	-exp(1) = exponentielle de 1
+	-Pi = la valeur et pi = le symbole
+	-P:=x->  ...  déclare une fonction P qui associe x à ...
+	-subs(x = calcul, A une équation avec x à remplacer) renvoie le calcul d'une équation en remplaçant x
+	-evalf/c() renvoie le nombre réel
+	-expand()
+	-simplify()
+	-combine()
+	-normal()
+	-rationalize()
+	-whattype() renvoie le type de l'argument
+	-solve(P(x)) trouve les solutions de l'équation
+	-rsolve(...) A NOTER
+	-factor(P(x)) factorise la fonction
+	-limit(f(x), x = infinity ou 1 ou 0...) renvoie la limite en x choisit
+	-isolate(a + b + 1 = c + d , a ) renvoie a = c + d - b - 1; isole la variable choisit
+	-sum(calcul,k=1..n) renvoie la somme
+	-product(calcul,k=1..n) renvoie le produit
+	-convert(,parfrac,x) A NOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	-plot(P(x),x=[],y=[]) affiche la courbe entre les intervalles
+	-taylor(f(x),x=0,10) développement de Taylor
+	-L := [seq(x+i,i=0..n)] renvoie la liste des éléments compris entre 0 et n
+	-LL := map(f ou la fonction,L ou une séquence) renvoie la séquence des éléments calculés par f(L[i]) pour chaque élément i
+	-interp(L,LL,x) renvoie l'interpolation des 2 séquences
+	-restart; A NOTER
+	-rand(0..100)() renvoie un entier compris entre 0 et 100 attention les parenthèses servent à appeler la fonction génératrice de nombre aléatoire que l'on vient de créer
+	-tableaux : 	nops(tab) renvoie le nombre d'éléments du tableau
+			tab[i] récupère le ième élément
+	- import > with()
+	
+	fonctions : ou procédure en maple 
+		- déclaration : nomFonction := proc(arguments)
+		- local : variables local
+		- calcul de la fonction
+		- return
+		- end proc
+		
+		- utilisation : nomFonction(arguments)[optionnel si on veut une valeur parmis les retours]
+		
+	boucles : 
+		- while condition do ...... od
+		- for i from 1 to n do ..... od
+		- if condition then ....... else ..... fi
+		
